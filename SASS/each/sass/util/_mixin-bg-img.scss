@@ -1,0 +1,7 @@
+
+
+@mixin bg-img ($bg-style: image, $img-link, $bg-property: repeat, $bg-valu: no-repeat, $bg-size: size, $size: cover) {
+    background-#{$bg-style}: url(../img/#{$img-link}.png);
+    background-#{$bg-property}: $bg-valu;
+    background-#{$bg-size}: $size;
+}

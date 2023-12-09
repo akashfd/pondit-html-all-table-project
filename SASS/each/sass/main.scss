@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+$dark: black;
+$light: white;
+$primary-color: #f76d37;
+$secondary-color: yellow;
+$font-family: 'Poppins', sans-serif;
+$header-f-size: 30px;
+$para-size: 18px;
+
+
+
+
+@mixin button-style {
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: $dark;
+    color: $light;
+    border: none;
+
+    &:hover {
+        color: $primary-color;
+    }
+}
+
+
+@mixin bg-img ($bg-style: image, $img-link, $bg-property: repeat, $bg-valu: no-repeat, $bg-size: size, $size: cover) {
+    background-#{$bg-style}: url(../img/#{$img-link}.png);
+    background-#{$bg-property}: $bg-valu;
+    background-#{$bg-size}: $size;
+}
+
+
+%box-style {
+    padding: 30px;
+    color: $light;
+    background-color: $primary-color;
+    text-align: center;
+    width: 380px;
+
+    h2 {
+        font-size: $header-f-size;
+        padding: 30px 0 10px;
+    }
+
+    p {
+        font-size: $para-size;
+        padding-bottom: 15px;
+    }
+
+    button {
+        @include button-style;
+    }
+}
+
+
+
+header {
+    font-family: $font-family;
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: $dark;
+        padding: 10px 0;
+
+        h2 {
+            color: $secondary-color;
+            font-size: $header-f-size;
+            margin-left: 50px;
+            font-weight: 900;
+        }
+
+        ul {
+            display: flex;
+            margin-right: 50px;
+
+            li {
+                margin-left: 25px;
+
+                a {
+                    color: $light;
+                    font-size: $para-size;
+
+                    &:hover {
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+    }
+
+    section {
+        @include bg-img(image, banner-bg, repeat, no-repeat, size, cover);
+        padding-bottom: 100px;
+
+        div {
+            padding-top: 100px;
+            margin-left: 100px;
+
+            h2 {
+                font-size: 60px;
+                font-weight: 100;
+                color: $dark;
+                margin-bottom: 15px;
+            }
+
+            h1 {
+                font-size: 80px;
+                font-weight: 800;
+                color: $light;
+                margin: 15px 0;
+            }
+
+            p {
+                font-size: $para-size;
+                color: $light;
+                margin: 20px 0;
+                width: 600px;
+            }
+
+            button {
+                @include button-style;
+            }
+        }
+    }
+}
+
+
+.about-us {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: $font-family;
+
+    div {
+        padding: 0 20px;
+
+        h2 {
+            font-size: $header-f-size;
+            font-weight: 800;
+            margin: 15px 0;
+            color: $primary-color;
+        }
+
+        p {
+            font-size: $para-size;
+            line-height: 25px;
+            margin: 15px 0;
+        }
+
+        button {
+            @include button-style;
+        }
+    }
+
+    img {
+        padding: 0 20px;
+        width: 550px;
+    }
+}
+
+
+.services {
+    @include bg-img(image, services-bg, repeat, no-repeat, size, cover);
+    background-attachment: fixed;
+    text-align: center;
+    font-family: $font-family;
+    padding-bottom: 100px;
+
+    h2 {
+        font-size: 50px;
+        font-weight: 800;
+        padding: 15px 0;
+        color: $light;
+    }
+
+    p {
+        font-size: $para-size;
+        padding: 5px 0 30px 0;
+        color: $light;
+    }
+
+    #box-model {
+        display: flex;
+        justify-content: space-evenly;
+
+        .box-1 {
+            @extend %box-style;
+        }
+
+        .box-2 {
+            @extend %box-style;
+        }
+
+        .box-3 {
+            @extend %box-style;
+        }
+    }
+}

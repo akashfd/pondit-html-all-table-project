@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(img.jpeg);
+    background-size: 100% 100%;
+    /* background-repeat: no-repeat; */
+}
+
+h2
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(255, 0, 144);
+    text-align: center;
+    /* text-decoration: underline; */
+    padding: 20px;
+}
+
+table
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: darkblue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    border-collapse: collapse;
+    border: 3px solid green;
+    margin: auto;
+    width: 60%;
+    background-color: rgb(109, 214, 214);
+}
+
+td{
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=password]
+{
+    width: 65%;
+    padding: 6px 12px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+input[type=submit],
+input[type=reset]
+{
+    width: 15%;
+    padding: 5px 10px;
+    margin: 5px 0 20px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+input[type=reset]:hover
+{
+    color: red;
+    background-color: wheat;
+}
+
+input[type=reset]:active
+{
+    background-color: rgb(241, 11, 11);
+    color: whitesmoke;
+}
+
+input[type=reset]
+{
+    background-color: rgb(235, 70, 70);
+    color: white;
+}
+
+
+input[type=submit]
+{
+    background-color: rgb(101, 143, 234);
+    color: white;
+}
+
+input[type=submit]:hover
+{
+    color:rgb(62, 117, 234) ;
+    background-color: wheat ;
+}
+
+input[type=submit]:active
+{
+    background-color: rgb(9, 79, 230);
+    color: whitesmoke;
+}
+

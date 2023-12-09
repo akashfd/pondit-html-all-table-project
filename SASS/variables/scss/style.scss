@@ -1,0 +1,233 @@
+
+$primary: #00B074;
+$secondary: #2B9BFF;
+$light: #EFFDF5;
+$dark: black;
+$rgb-color: rgb(10, 186, 192);
+
+
+$font-family-base: 'Montserrat', sans-serif;
+$headings-font-family: 'Poppins', sans-serif;
+
+$body-bg: white;
+$body-color: #646363;
+$footer-bg: rgb(40, 53, 54);
+
+$font-size: 20px;
+$display-font-weight: 600;
+
+$header-font-size: 30px;
+$headings-font-weight: 700;
+$header-padding: 20px 0;
+
+$button-font-size: 20px;
+$button-padding: 15px 25px;
+
+
+$line-height: 80px;
+
+$border-radius: 3px;
+
+$text-decoration: none;
+
+$list-style-type: none;
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+
+    div {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+
+        h1 {
+            font-family: $headings-font-family;
+            font-weight: $headings-font-weight;
+            font-size: $header-font-size;
+            margin-left: 50px;
+
+            a {
+                text-decoration: $text-decoration;
+                color: $primary;
+            }
+        }
+
+        ul {
+            display: flex;
+
+            li {
+                margin-left: 25px;
+                list-style-type: $list-style-type;
+
+                a {
+                    text-decoration: $text-decoration;
+                    color: $dark;
+                    font-family: $font-family-base;
+                    font-weight: $display-font-weight;
+                    &:hover {
+                        color: $primary;
+                    }
+                }
+
+               
+            }
+        }
+
+        h2 {
+            font-family: $headings-font-family;
+            font-weight: $headings-font-weight;
+
+            a {
+                text-decoration: $text-decoration;
+                color: $light;
+                background-color: $primary;
+                padding: 20px;
+            }
+        }
+    }
+}
+
+
+.img-position {
+    position: relative;
+    background-image: url(../img/carousel-2.jpg);
+    width: 100%;
+    height: 697px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    div {
+        position: absolute;
+        top: 180px;
+        left: 90px;
+
+        h2 {
+            font-family: $headings-font-family;
+            font-weight: $headings-font-weight;
+            font-size: 60px;
+            color: $rgb-color;
+            line-height: $line-height;
+        }
+
+        p {
+            font-family: $font-family-base;
+            font-size: $font-size;
+            color: $dark;
+            padding: $header-padding;
+        }
+
+        .button-left {
+            padding: $button-padding;
+            font-size: $button-font-size;
+            font-weight: $display-font-weight;
+            color: $light;
+            background-color: $primary;
+            border: none;
+            margin-right: 30px;
+            margin-top: 20px;
+        }
+
+        .button-right {
+            padding: $button-padding;
+            font-size: $button-font-size;
+            font-weight: $display-font-weight;
+            color: $light;
+            background-color: $secondary;
+            border: none;
+            margin-top: 20px;
+        }
+    }
+}
+
+form {
+    background-color: $primary;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+
+    input {
+        width: 250px;
+        padding: 10px 15px;
+        border: none;
+        margin-right: 7px;
+        border-radius: $border-radius;
+    }
+
+    button {
+        padding: 10px 50px;
+        border: none;
+        color: $light;
+        background-color: $dark;
+        border-radius: $border-radius;
+    }
+}
+
+
+#our-client {
+
+    h2 {
+        text-align: center;
+        font-size: $header-font-size;
+        font-weight: $headings-font-weight;
+        margin: 50px 0;
+    }
+
+    #our-clients-container {
+
+        margin: 40px 0;
+        display: flex;
+        justify-content: space-evenly;
+
+        .clients-box-style {
+            box-sizing: border-box;
+            width: 27%;
+            background-color: $primary;
+            color: $light;
+            padding: $button-padding;
+
+            .client-tital {
+                display: flex;
+                align-items: center;
+                margin-top: 20px;
+
+                img {
+                    margin-right: 20px;
+                }
+                p{
+                    font-size: $font-size;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    background-color: $footer-bg;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0;
+
+    div{
+        font-family: $font-family-base;
+        color: $light;
+        h2{
+            font-size: $font-size;
+            font-weight: $headings-font-weight;
+            padding: 20px 0;
+        }
+
+        p{
+            opacity: 0.6;
+            padding: 5px;
+        }
+    }
+}

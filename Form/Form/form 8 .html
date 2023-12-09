@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Student Registration Form Using Table in HTML</h2>
+
+    <table>
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" id="first-name" name="first-name" value=""></td>
+        </tr>
+
+        <tr>
+            <td>Last Name</td>
+            <td><input type="text" name="last-name" id="last-name" value="" /></td>
+        </tr>
+
+        <tr>
+            <td>Email ID</td>
+            <td><input type="email" id="email" name="email" value=""></td>
+        </tr>
+
+        <tr>
+            <td>Mobile Number</td>
+            <td><input type="tel" id="mobile-number" name="mobile-number" value=""></td>
+        </tr>
+
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" id="male" name="Gender" value="male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="Gender" value="female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="other" name="Gender" value="other">
+                <label for="other">Other</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="">Date of Birth</label></td>
+
+            <td><input type="date" id="date" name="date" value=""></td>
+        </tr>
+
+        <tr>
+            <td>Address</td>
+            <td><textarea name="text" id="text" cols="30" rows="10"></textarea></td>
+        </tr>
+
+        <tr>
+            <td>City</td>
+            <td><input type="text" id="city" name="city" value=""></td>
+        </tr>
+
+        <tr>
+            <td>Pin Code</td>
+            <td><input type="password" id="password" name="password" value=""></td>
+        </tr>
+
+        <tr>
+            <td>State</td>
+            <td><input type="text" id="state" name="state" value=""></td>
+        </tr>
+
+        <tr>
+            <td>Contry</td>
+            <td>
+                <select name="" id="">
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="India">India</option>
+                    <option value="UK">UK</option>
+                    <option value="USA">USA</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Hobbies</td>
+            <td>
+                <input type="checkbox" id="drawing" name="drawing" value="Drawing">
+                <label for="drawing">Drawing</label>
+
+                <input type="checkbox" id="singing" name="singing" value="singing">
+                <label for="singing">Singing</label>
+
+                <input type="checkbox" id="dancing" name="dancing" value="Dancing">
+                <label for="dancing">Dancing</label>
+
+                <input type="checkbox" id="sketching" name="sketching" value="Sketching">
+                <label for="sketching">Sketching</label>
+                <div>
+                    <label for="others">Others</label>
+                    <input type="text" id="others" name="others" value="" placeholder="Ex-Teaching">
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Qualification</td>
+            <td>
+                <div>
+                    <input type="checkbox" id="high-schoo(10th)" name="education" value="High School(10th)">
+                    <label for="high-schoo(10th)">High School(10th)</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="higher-school(12th)" name="education" value="Higher School(12th)">
+                    <label for="higher-school(12th)">Higher School(12th)</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="graduation(bachelors)" name="education" value="Graduation(Bachelors)">
+                    <label for="graduation(bachelors)">Graduation(Bachelors)</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="post-graduation(masters)" name="education"
+                        value="Post Graduation(Masters)">
+                    <label for="post-graduation(masters)">Post Graduation(Masters)</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="phd" name="education" value="Phd">
+                    <label for="phd">Phd</label>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Courses <br> Applied For</td>
+
+            <td>
+                <input type="radio" id="bca(bachelor-of-computer-applications)" name="courses-applied"
+                    value="BCA(Bachelor of Computer Applications)">
+                <label for="bca(bachelor-of-computer-applications)">BCA(Bachelor of Computer Applications)</label><br>
+
+                <input type="radio" id="b.com(bachelor-of-commerce)" name="courses-applied" value-="">
+                <label for="b.com(bachelor-of-commerce)">B.Com(Bachelor of Commerce)</label><br>
+
+                <input type="radio" id="b.sc(bachelor-of-science)" name="courses-applied"
+                    value-="B.Sc(Bachelor of Science)">
+                <label for="b.sc(bachelor-of-science)">B.Sc(Bachelor of Science)</label><br>
+
+                <input type="radio" id="ma(master-of-arts)" name="courses-applied" value-="MA(Master of Arts)">
+                <label for="ma(master-of-arts)">MA(Master of Arts)</label><br>
+
+                <input type="radio" id="ba(bachelor-of-arts)" name="courses-applied" value-="BA(Bachelor of Arts)">
+                <label for="ba(bachelor-of-arts)">BA(Bachelor of Arts)</label><br>
+
+                <input type="radio" id="mca(master-of-computer-applications)" name="courses-applied"
+                    value-="MCA(Master of Computer Applications)">
+                <label for="mca(master-of-computer-applications)">MCA(Master of Computer Applications)</label><br>
+
+                <input type="radio" id="m.com(master-of-commerce)" name="courses-applied"
+                    value-="M.Com(Master of Commerce)">
+                <label for="m.com(master-of-commerce)">M.Com(Master of Commerce)</label><br>
+
+                <input type="radio" id="m.sc(master-of-science)" name="courses-applied"
+                    value-="M.Sc(Master of Science)">
+                <label for="m.sc(master-of-science)">M.Sc(Master of Science)</label><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>

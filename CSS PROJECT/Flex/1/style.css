@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container
+{
+    background-color: brown;
+    margin: auto;
+    width: 55%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-flow: row wrap; */
+    justify-content: flex-end;
+    /* align-items: center; */
+    /* align-content: flex-start; */
+
+}
+:nth-child(e)
+.div1
+{
+    /* display: flex;
+    align-self: center; */
+    /* order: 12; */
+    /* flex-grow: 2; */
+    /* flex-basis: 150px; */
+}
+
+.flex-container > div
+{
+    font-size: 35px;
+    text-align: center;
+    background-color: aqua;
+    width: 90px;
+    padding: 20px;   
+    margin: 10px;
+}

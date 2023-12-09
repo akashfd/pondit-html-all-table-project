@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.services #box-model .box-3, .services #box-model .box-2, .services #box-model .box-1 {
+  padding: 30px;
+  color: white;
+  background-color: #f76d37;
+  text-align: center;
+  width: 380px;
+}
+.services #box-model .box-3 h2, .services #box-model .box-2 h2, .services #box-model .box-1 h2 {
+  font-size: 30px;
+  padding: 30px 0 10px;
+}
+.services #box-model .box-3 p, .services #box-model .box-2 p, .services #box-model .box-1 p {
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+.services #box-model .box-3 button, .services #box-model .box-2 button, .services #box-model .box-1 button {
+  padding: 10px 30px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+.services #box-model .box-3 button:hover, .services #box-model .box-2 button:hover, .services #box-model .box-1 button:hover {
+  color: #f76d37;
+}
+
+header {
+  font-family: "Poppins", sans-serif;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  padding: 10px 0;
+}
+header nav h2 {
+  color: yellow;
+  font-size: 30px;
+  margin-left: 50px;
+  font-weight: 900;
+}
+header nav ul {
+  display: flex;
+  margin-right: 50px;
+}
+header nav ul li {
+  margin-left: 25px;
+}
+header nav ul li a {
+  color: white;
+  font-size: 18px;
+}
+header nav ul li a:hover {
+  color: #f76d37;
+}
+header section {
+  background-image: url(../img/banner-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+header section div {
+  padding-top: 100px;
+  margin-left: 100px;
+}
+header section div h2 {
+  font-size: 60px;
+  font-weight: 100;
+  color: black;
+  margin-bottom: 15px;
+}
+header section div h1 {
+  font-size: 80px;
+  font-weight: 800;
+  color: white;
+  margin: 15px 0;
+}
+header section div p {
+  font-size: 18px;
+  color: white;
+  margin: 20px 0;
+  width: 600px;
+}
+header section div button {
+  padding: 10px 30px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+header section div button:hover {
+  color: #f76d37;
+}
+
+.about-us {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: "Poppins", sans-serif;
+}
+.about-us div {
+  padding: 0 20px;
+}
+.about-us div h2 {
+  font-size: 30px;
+  font-weight: 800;
+  margin: 15px 0;
+  color: #f76d37;
+}
+.about-us div p {
+  font-size: 18px;
+  line-height: 25px;
+  margin: 15px 0;
+}
+.about-us div button {
+  padding: 10px 30px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+.about-us div button:hover {
+  color: #f76d37;
+}
+.about-us img {
+  padding: 0 20px;
+  width: 550px;
+}
+
+.services {
+  background-image: url(../img/services-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 100px;
+}
+.services h2 {
+  font-size: 50px;
+  font-weight: 800;
+  padding: 15px 0;
+  color: white;
+}
+.services p {
+  font-size: 18px;
+  padding: 5px 0 30px 0;
+  color: white;
+}
+.services #box-model {
+  display: flex;
+  justify-content: space-evenly;
+}/*# sourceMappingURL=main.css.map */

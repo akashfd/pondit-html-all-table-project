@@ -1,0 +1,11 @@
+div {
+  background-color: aqua;
+}
+div h1 {
+  font-size: 35px;
+  color: tomato;
+  text-align: center;
+}
+div p {
+  font-size: none;
+}/*# sourceMappingURL=style.css.map */

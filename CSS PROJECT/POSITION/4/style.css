@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover
+{
+    text-decoration: underline;
+    color: blue;
+}
+img:hover
+{
+    opacity: 0.8;
+}
+p,h2{
+    text-align: justify;
+}
+
+section
+{
+    background-color: rgb(15, 237, 237);
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+section div
+{
+    position: relative;
+    height: 150px;
+    padding: 10px;
+}
+
+section div:hover
+{
+    background-color: rgb(185, 181, 181);
+}
+
+section div figure
+{
+    position: absolute;
+    width: 150px;
+    top: 0;
+    left: 0;
+}
+
+section div aside
+{
+    position: absolute;
+    padding: 5px;
+    width: 300px;
+    top: 0;
+    right: 0;
+}

@@ -1,0 +1,7 @@
+
+p::after { 
+    content: " - Remember this";
+    background-color: greenyellow;
+    color: red;
+    font-weight: bold;
+  }

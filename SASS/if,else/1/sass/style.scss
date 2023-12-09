@@ -1,0 +1,35 @@
+
+
+@mixin font-size($valu) {
+    
+    @if $valu ==small {
+        font-size: 14px;
+    }
+
+    @else if $valu ==medium {
+        font-size: 18px;
+    }
+
+    @else if $valu ==large {
+        font-size: 35px;
+        color: tomato;
+        text-align: center;
+    }
+
+    @else {
+        font-size: none;
+    }
+}
+
+
+div {
+    background-color: aqua;
+
+    h1 {
+        @include font-size(large);
+    }
+
+    p {
+        @include font-size(long);
+    }
+}

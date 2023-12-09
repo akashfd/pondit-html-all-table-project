@@ -1,0 +1,41 @@
+
+
+
+.navbar{
+    background-color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar a:hover{
+    background-color: red;
+}
+
+.container{
+    display: inline;
+    position: relative;
+}
+
+.container:hover .content{
+    display: block;
+}
+
+.content{
+    display: none;
+    background-color: black;
+    position: absolute;
+    top: 28px;
+    left: 0;
+    right: 0;
+}
+
+.content > a{
+    display: block;
+}

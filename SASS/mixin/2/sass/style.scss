@@ -1,0 +1,26 @@
+
+
+@mixin button-style($size:18px, $color:white, $bg-color:green, $padding:5px 25px, ) {
+    font-size: $size;
+    font-weight: 400;
+    color: $color;
+    background-color: $bg-color;
+    padding: $padding;
+    margin: 10px;
+    border: 2px solid rgb(16, 209, 151);
+    box-shadow: 5px 1px 15px 1px rgb(32, 225, 167);
+    border-radius: 20px;
+}
+
+.submit {
+    @include button-style;
+}
+
+.reset {
+    @include button-style(18px, white, red, 5px 25px);
+}
+
+.back{
+    @include button-style(20px, yellow, blue, 7px 95px);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

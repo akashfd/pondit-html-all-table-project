@@ -1,0 +1,34 @@
+*
+{
+    margin: 0;
+   
+}
+
+#all
+{
+
+}
+
+#green
+{
+    height: 400px;
+    width: 600px;
+    background-color: green;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+#red
+{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 100px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    
+}
+

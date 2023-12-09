@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+body
+{
+    width: 500px;
+    margin: auto;
+}
+.div-1
+{
+    background-color: aqua;
+    padding: 20px;
+    float: left;
+}
+
+.div-2
+{
+    background-color: aquamarine;
+    padding: 20px;
+    float: right;
+}
+
+.div-3
+{
+    background-color: burlywood;
+    text-align: justify;
+    clear: both;
+    padding: 10px;
+}

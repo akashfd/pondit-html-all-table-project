@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6,
+p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+div {
+  background-color: #646363;
+  padding: 30px;
+  margin: auto;
+  width: 70%;
+}
+div h1 {
+  color: #00B074;
+  background-color: #EFFDF5;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+div p {
+  color: black;
+  background-color: rgb(220, 32, 173);
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  padding: 0 10px;
+}
+div p button {
+  font-size: 18px;
+  color: white;
+  background-color: green;
+  padding: 5px 25px;
+  margin: 10px;
+  border: 2px solid rgb(16, 209, 151);
+  box-shadow: 5px 1px 15px 1px rgb(32, 225, 167);
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}/*# sourceMappingURL=main.css.map */

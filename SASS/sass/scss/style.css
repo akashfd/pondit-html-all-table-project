@@ -1,0 +1,114 @@
+body, * {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+#header {
+  background-color: black;
+  padding: 20px 0 20px 15px;
+}
+#header h1 {
+  font-size: 35px;
+  color: white;
+  padding: 10px 0 20px 0;
+  font-weight: 400;
+}
+#header p {
+  color: white;
+}
+
+.navbar {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar img {
+  margin: 10px 0 0 40px;
+}
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+.navbar li {
+  list-style-type: none;
+  padding: 15px;
+}
+.navbar li:hover {
+  background-color: rgb(240, 240, 240);
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.header-text h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 40px 0;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.container-aside {
+  width: 100%;
+  opacity: 0.7;
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 25px;
+  margin-bottom: 50px;
+}
+.container-aside div {
+  width: 45%;
+  box-sizing: border-box;
+}
+.container-aside div img {
+  padding: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 0;
+}
+.container-aside div h2, .container-aside div h4 {
+  padding: 20px 0;
+}
+.container-aside div p {
+  padding-bottom: 15px;
+  font-size: 17px;
+}
+.container-aside div .box-model {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(211, 208, 208);
+  background-color: rgb(247, 241, 241);
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+.container-aside div a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+.container-aside div button {
+  padding: 15px;
+  background-color: #ca0f7c;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ca0f7c;
+}
+
+.bottom {
+  background-color: #ca0f7c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 25px 0;
+}
+.bottom a {
+  color: white;
+  margin-left: 20px;
+}/*# sourceMappingURL=style.css.map */

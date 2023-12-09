@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navbar {
+    background-color: cadetblue;
+    text-align: center;
+    padding: 1% 7%;
+}
+
+.navbar a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.navbar a:hover{
+    background-color: rgb(81, 136, 138);
+}
+
+.dropdown-container {
+    display: inline;
+    position: relative;
+}
+
+.dropdown-content {
+    background-color: cadetblue;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    left: 0;
+    display: none;
+}
+
+.dropdown-container:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+}

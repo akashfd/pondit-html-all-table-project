@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+div {
+  background-color: aquamarine;
+  text-align: center;
+  padding: 20px;
+}
+div h1 {
+  color: tomato;
+  padding-bottom: 10px;
+  font-weight: 800;
+}
+div h2 {
+  font-size: 22px;
+  font-style: italic;
+  color: purple;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,111 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Makup for Header */
+
+.main-container{
+    width: 1140px;
+    margin: auto; 
+}
+
+header{
+    background-image: url(img/cover.jpg);
+    background-color: rgb(227, 225, 230);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #2db5b0; */
+}
+
+#logo{
+    margin-left: 25px;
+    padding-top: 7px;
+}
+
+#logo a img{
+    border: 3px solid rgb(162, 79, 240);
+    border-radius: 100px;
+}
+
+
+header .container div nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+header .container div nav ul li a{
+    margin-right: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+header .container div nav ul li a:hover{
+    color: rgb(86, 86, 248);
+    text-decoration: underline;
+}
+
+header .container div nav ul li a:active{
+    color: blue;
+}
+
+.header-section{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 80px;
+}
+
+
+header .main-container section div{
+    width: 495px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 160px;
+}
+
+header .main-container section div h1{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header .main-container section div p{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header .main-container section div button{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #2db5b0;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: #2db5b0 0 0 8px;
+}
+
+header .main-container section div button:hover{
+    background-color:  #0ea5a0;
+    color: white;
+}

@@ -1,0 +1,41 @@
+
+
+#acontent
+{
+    background-color: antiquewhite;
+    width: 300px;
+    padding: 50px;
+    
+    border: 5px solid yellow;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: justify;
+
+}
+
+
+.cssshortcut
+{
+    background-color: aqua;
+    width: 200px;
+    padding: 50px;
+    border: 5px solid yellow;
+    border-radius: 30px;
+    text-align: center;
+    margin: 30px;
+    float: left;
+
+}
+
+.ctest
+{
+    background-color: rgb(117, 117, 223);
+    border: 5px solid rgb(230, 88, 88);
+    margin-top: 106px;
+    margin-left: -80px;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section div{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+section div h1{
+    font-size: 200px;
+    background: -webkit-linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0.7;
+}
+
+section div h2{
+    font-size: 40px;
+   color: darkblue;
+}
+
+section div p{
+    font-size: 20px;
+    margin: 10px 0 20px 0;
+    color: rgb(86, 86, 86);
+}
+
+section div button{
+    padding: 5px 50px;
+    border: none;
+    background-color: rgb(96, 96, 244);
+    color: whitesmoke;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+section div button:hover{
+    background-color: rgb(53, 53, 247);
+}

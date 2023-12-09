@@ -1,0 +1,154 @@
+
+
+@forward "base/index";
+@use "util/index";
+
+
+header {
+    font-family: index.$font-family;
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: index.$dark;
+        padding: 10px 0;
+
+        h2 {
+            color: $secondary-color;
+            font-size: index.$header-f-size;
+            margin-left: 50px;
+            font-weight: 900;
+        }
+
+        ul {
+            display: flex;
+            margin-right: 50px;
+
+            li {
+                margin-left: 25px;
+
+                a {
+                    color: index.$light;
+                    font-size: index.$para-size;
+
+                    &:hover {
+                        color: index.$primary-color;
+                    }
+                }
+            }
+        }
+    }
+    
+    section {
+        @include index.bg-img(image, banner-bg, repeat, no-repeat, size, cover);
+        padding-bottom: 100px;
+
+        div {
+            padding-top: 100px;
+            margin-left: 100px;
+
+            h2 {
+                font-size: 60px;
+                font-weight: 100;
+                color: index.$dark;
+                margin-bottom: 15px;
+            }
+
+            h1 {
+                font-size: 80px;
+                font-weight: 800;
+                color: index.$light;
+                margin: 15px 0;
+            }
+
+            p {
+                font-size: index.$para-size;
+                color: index.$light;
+                margin: 20px 0;
+                width: 600px;
+            }
+
+            button {
+                @include index.button-style;
+            }
+        }
+    }
+}
+
+
+.about-us {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: index.$font-family;
+
+    div {
+        padding: 0 20px;
+
+        h2 {
+            font-size: index.$header-f-size;
+            font-weight: 800;
+            margin: 15px 0;
+            color: index.$primary-color;
+        }
+
+        p {
+            font-size: index.$para-size;
+            line-height: 25px;
+            margin: 15px 0;
+        }
+
+        button {
+            @include index.button-style;
+        }
+    }
+
+    img {
+        padding: 0 20px;
+        width: 550px;
+    }
+}
+
+
+.services {
+    @include index.bg-img(image, services-bg, repeat, no-repeat, size, cover);
+    background-attachment: fixed;
+    text-align: center;
+    font-family: index.$font-family;
+    padding-bottom: 100px;
+
+    h2 {
+        font-size: 50px;
+        font-weight: 800;
+        padding: 15px 0;
+        color: index.$light;
+    }
+
+    p {
+        font-size: index.$para-size;
+        padding: 5px 0 30px 0;
+        color: index.$light;
+    }
+
+    #box-model {
+        display: flex;
+        justify-content: space-evenly;
+
+        .box-1 {
+            @extend index.box-style;
+        }
+
+        .box-2 {
+            @extend index.box-style;
+        }
+
+        .box-3 {
+            @extend index.box-style;
+        }
+    }
+}

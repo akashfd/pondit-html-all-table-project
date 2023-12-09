@@ -1,0 +1,567 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*--------------- header top -------------*/
+
+header{
+    background-image: url(images/hero-bg.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+.header-top{
+    background-color: #003471;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a h2,span{
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.logo span{
+    color: #da7426;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.logo a:hover {
+    color: black;
+}
+
+.header-icon a{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+header .header-top a img{
+    background-color: #159ec0;
+    /* width: 35px;
+    height: 35px; */
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 100%;
+    color: white;
+}
+
+header .header-top a img:hover{
+    background-color: #da7426;
+}
+
+header .header-top a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+
+/*--------------- nav -------------*/
+
+.nav-section{
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+header nav{
+    width: 1140px;
+    margin: auto;
+}
+
+header nav ul a,li{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-size: 16px;
+}
+
+header nav ul a li span{
+    font-size: 15px;
+}
+
+.nav-section nav ul a li:hover{
+   color: #da7426;
+}
+
+header nav ul a,li{
+    padding: 5px 10px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*--------------- aside -------------*/
+
+header aside h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.button-style{
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: #da7426;
+    color: white;
+    width: 165px;
+    margin: 5PX;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.button-style:hover{
+    color: #da7426;
+    border: 1px solid #da7426;
+    background: none;
+}
+
+header aside{
+    width: 1140px;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+
+
+/*--------------- section 1 welconme to torweld -------------*/
+
+.section-1-welconme-to-torweld{
+    width: 1140px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-1-welconme-to-torweld-text{
+    width: 555px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    align-self: center;
+}
+
+.section-1-welconme-to-torweld-text h2,span{
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+}
+
+.section-1-welconme-to-torweld-text span{
+    color: #da7426;
+}
+
+.section-1-welconme-to-torweld-text p{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.section-1-welconme-to-torweld-text button{
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: #da7426;
+    color: white;
+    width: 165px;
+    margin: 5PX;
+    border: none;
+}
+
+.section-1-welconme-to-torweld-text button:hover{
+    color: #da7426;
+    border: 1px solid #da7426;
+    background: none;
+}
+
+.section-1-welconme-to-torweld div img{
+    margin-right: 70px;
+}
+
+
+/*--------------- section 2 our work portfolio -------------*/
+
+.section-2-our-work-portfolio{
+    width: 100%;
+    background-color: #003471;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.section-2-our-work-portfolio div h2{
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-2-our-work-portfolio div div ul a li{
+    list-style-type: none;
+}
+
+.section-2-our-work-portfolio div div ul a{
+    text-decoration: none;
+    color: white;
+    margin: 5px 0 30px 0;
+    padding: 5px 10px;
+}
+
+.section-2-our-work-portfolio div div ul a :hover{
+    color: #da7426;
+}
+
+.section-2-our-work-portfolio div div ul{
+    display: flex;
+    justify-content: center;
+}
+
+.section-2-our-work-portfolio div .section-2-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*--------------- section 3 our services -------------*/
+
+.section-3-our-services{
+    width: 1140px;
+    margin: auto;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+.section-3-our-services div h2{
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding: 10px 0 20px;
+}
+
+.section-3-our-services div h2 span{
+    color: #da7426;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.section-3-our-services div div .box-model{
+    width: 360px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 25px 15px;
+    background-color: white;
+    line-height: 25px;
+    border: none;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+}
+
+.section-3-our-services div div .box-model h3{
+    font-size: 25px;
+    padding: 10px 0;
+}
+
+.section-3-our-services div .all-box-style{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-3-our-services div div button{
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: #da7426;
+    color: white;
+    width: 165px;
+    margin: 15PX  0;
+    border: none;
+}
+
+.section-3-our-services div div button:hover{
+    color: #da7426;
+    border: 1px solid #da7426;
+    background: none;
+}
+
+.section-3-our-services div .section-3-button{
+     display: flex;
+    justify-content: center;
+}
+
+
+/*--------------- section 4 get in touch -------------*/
+
+.section-4-get-in-touch h2,span{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 80px 0 40px;
+}
+
+.section-4-get-in-touch h2 span{
+    color: #da7426;
+}
+
+.section-4-get-in-touch .container{
+    width: 1140px;
+    background-color: #003471;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.section-4-get-in-touch .container .section-4-get-in-touch-img-from{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.section-4-get-in-touch .container div form input{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    padding: 15px 0;
+    padding-left: 20px;
+    font-size: 16px;
+    border: none;
+}
+
+.section-4-get-in-touch .container div form .width-style{
+    width: 49%;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    padding: 15px 0;
+    padding-left: 20px;
+    font-size: 16px;
+    border: none;
+}
+
+.section-4-get-in-touch .container div form select{
+    margin-left: 5px;
+}
+
+.section-4-get-in-touch .container div button{
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: #da7426;
+    color: white;
+    width: 165px;
+    border: none;   
+}
+
+.section-4-get-in-touch .container div button:hover{
+    color: #da7426;
+    border: 1px solid #da7426;
+    background: none;
+}
+
+.section-4-get-in-touch .container .section-4-get-in-touch-img img{
+    width: 570px;
+    height: 100%;
+}
+
+.section-4-get-in-touch .container{
+    display: flex;
+}
+
+/*--------------- section 5 testimonial -------------*/
+
+.testimonial-container{
+    padding-bottom: 70px;
+}
+
+.testimonial-container h2{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.alex-jonson-container{
+    width: 1140px;
+    margin: auto;
+}
+
+.alex-jonson-container div img{
+    width: 125px;
+    height: 144px;
+    border: 10px solid #da7426;
+}
+
+.testimonial-container h4{
+    margin-left: 233px;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.alex-jonson-container div p{
+    font-size: 18px;
+    opacity: 0.9;
+    padding: 15px;
+    border: 1px solid black;
+    width: 595px;
+    margin-left: 10px;
+}
+
+.alex-jonson-container div .a{
+    width: 20px;
+    height: 20px;
+    background-color: #da7426;
+    border: none;
+    border-radius: 50%;
+}
+
+.alex-jonson-container div .b{
+    width: 20px;
+    height: 20px;
+    background-color: #003471;
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.alex-jonson-container .color-div{
+    margin-left: 15px;
+}
+
+.alex-jonson-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*--------------- section 6 bottom -------------*/
+
+.bottom{
+    width: 100%;
+    background-color: rgb(46, 45, 45);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.bottom-useful-link{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+section .bottom h2,span{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+section .bottom h2 span{
+    color: #da7426;
+}
+
+.bottom-useful-link h3{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.bottom-useful-link ul a,li{
+    text-decoration: none;
+    list-style-type: none;
+    color: gray;
+}
+
+.welding p{
+    font-size: 18px;
+    color: gray;
+    line-height: 25px;
+}
+
+.social-media-icon img{
+    background-color: #da7426;
+    margin-right: 3px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.bottom-contact-icon{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+
+.bottom-contact-icon div{
+    display: flex;
+    align-items: center;
+}
+
+.bottom-contact-icon div img{
+    border: 2px solid #da7426;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+.bottom-contact-icon div h5{
+    font-size: 16px;
+    font-weight: 200;
+    color: white;
+    margin-left: 10px;
+}
+
+.bottom-contact-icon div input{
+    width: 200px;
+    padding: 10px 0 10px 10px;
+    font-size: 16px;
+    border: none;
+}
+
+.bottom-contact-icon div button{
+    padding: 0 10px 0;
+    font-size: 29px;
+    background-color: #da7426;
+    border: none;
+}
+
+.bottom-text{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 18px;
+    opacity: 0.8;
+}

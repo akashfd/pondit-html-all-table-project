@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            
+            width: 100px;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+
+        <div>
+            <label for="family-name">Family name</label>
+            <input id="family-name" type="text" name="family-name" value="" placeholder="family name">
+        </div><br>
+
+        <div>
+            <label for="other-name">Other name</label>
+            <input id="other-name" type="text" name="other-name" value="" placeholder="Other-name">
+        </div><br>
+
+        <div>
+            <label for="address">Address</label>
+            <input id="address" type="text" name="address" value="" placeholder="Address">
+        </div><br>
+
+        <div>
+            <label for="suburb">suburb</label>
+            <input id="suburb" type="text" name="suburb" value="" placeholder="Vic (drop down menu)">
+        </div>
+
+        <p>state/Territory</p>
+        <div>
+            <span>Course Info On:</span><br>
+
+            <input id="engineering" type="checkbox" name="engineering" value="">Engineering<br>
+            <input id="it" type="checkbox" name="it" value="">IT<br>
+            <input id="law" type="checkbox" name="law" value="">Law<br>
+            <input id="medicine" type="checkbox" name="medicine" value="">Medicine<br>
+            <input id="nursing" type="checkbox" name="nursing" value="">Nursing<br>
+        </div><br>
+
+        <div>
+            <span>Degree</span><br>
+            <input id="diploma" type="radio" name="degree" value="diploma">
+            <label for="diploma">Diploma</label><br>
+            <input id="degree" type="radio" name="degree" value="degree">
+            <label for="degree">Degree</label><br>
+            <input id="honours" type="radio" name="degree" value="honours">
+            <label for="honours">Honours</label><br>
+            <input id="masters" type="radio" name="degree" value="masters">
+            <label for="masters">Masters</label><br>
+            <input id="phd" type="radio" name="degree" value="phd">
+            <label for="phd">Phd</label><br>
+        </div><br>
+
+        <div>
+            <label for="comments">Comments</label><br>
+            <textarea id="comments" name="comments" rows="5" cols="30"></textarea>
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Clear Form</button>
+
+        </div>
+
+    </form>
+</body>
+
+</html>

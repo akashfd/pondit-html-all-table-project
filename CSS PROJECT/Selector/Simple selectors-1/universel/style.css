@@ -1,0 +1,11 @@
+
+
+*
+{
+    background-color: aqua;
+}
+
+div *
+{
+    background-color: chartreuse;
+}

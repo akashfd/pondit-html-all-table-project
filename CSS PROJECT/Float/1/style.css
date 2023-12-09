@@ -1,0 +1,31 @@
+
+*{
+    margin: 0;
+}
+
+.container
+{
+    width: 500px;
+    background-color: antiquewhite;
+    /* box-sizing: border-box; */
+    padding: 20px;
+    /* overflow: hidden; */
+}
+
+.container h2{
+    text-align: center;
+    padding: 10px 0;
+    color: coral;
+}
+
+.container img{
+    float: right;
+    padding-left: 5px;
+    padding-bottom: 5px;    
+}
+
+.container p{
+ /* clear: both; */
+ text-align: justify;
+ line-height: 20px;
+}

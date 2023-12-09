@@ -1,0 +1,36 @@
+.submit {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  background-color: green;
+  padding: 5px 25px;
+  margin: 10px;
+  border: 2px solid rgb(16, 209, 151);
+  box-shadow: 5px 1px 15px 1px rgb(32, 225, 167);
+  border-radius: 20px;
+}
+
+.reset {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  background-color: red;
+  padding: 5px 25px;
+  margin: 10px;
+  border: 2px solid rgb(16, 209, 151);
+  box-shadow: 5px 1px 15px 1px rgb(32, 225, 167);
+  border-radius: 20px;
+}
+
+.back {
+  font-size: 20px;
+  font-weight: 400;
+  color: yellow;
+  background-color: blue;
+  padding: 7px 95px;
+  margin: 10px;
+  border: 2px solid rgb(16, 209, 151);
+  box-shadow: 5px 1px 15px 1px rgb(32, 225, 167);
+  border-radius: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#About {
+  font-size: 20px;
+  padding: 15px;
+  text-align: justify;
+  color: blue;
+  background-color: coral;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.education {
+  font-size: 20px;
+  padding: 15px;
+  text-align: justify;
+  color: blue;
+  background-color: coral;
+  line-height: 30px;
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */

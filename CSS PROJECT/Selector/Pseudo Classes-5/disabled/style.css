@@ -1,0 +1,14 @@
+
+
+input:enabled {
+  background: #ffff00;
+}
+
+input:disabled {
+  background: #dddddd;
+}
+
+option:disabled {
+    background: red;
+    color: white;
+  }

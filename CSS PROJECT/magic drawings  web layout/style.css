@@ -1,0 +1,1056 @@
+*{
+    margin: 0;
+}
+
+/*-------------------------HEADET---------------------------*/
+.header{
+    background-color: #3aa6b9;
+    width: 100%;
+    height: 100%;
+    padding: 15px 0;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*-------------------------LOGO---------------------------*/
+.logo-container
+{
+    width: 960px;
+    height: 68px;
+    margin: auto;
+    padding: 15px 0;
+    position: relative;
+}
+.logo-wrapper
+{
+    width: 120px;
+    height: 68px;
+    position: absolute;
+    top: 15px;
+    left: 420px;
+}
+
+/*-------------------------CONTAINER-1---------------------------*/
+
+.container-1
+{
+    width: 1130px;
+    height: 585px;
+    padding-bottom: 20px;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-position
+{
+    width: 525px;
+    height: 525px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+
+.text-ariya
+{
+    width: 520px;
+    height: 480px;
+    position: absolute;
+    top: 55px;
+    right: 15px;
+}
+
+.header1
+{
+    text-align: center;
+}
+
+.header1 h2
+{
+    margin: 15px 0 10px;
+}
+
+.text-ariya p
+{
+    font-size: 20px;
+    padding-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.button-design
+{
+    width: 520px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f66;
+    border: 1px solid  #f66;
+    box-shadow: #5b5656 0 0 10px;
+    border-radius: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    right: 15px;
+    bottom: 30px;
+}
+
+/*-------------------------CONTAINER-2---------------------------*/
+
+.container-2
+{
+    width: 100%;
+    height: 585px;
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contant-ariya-2
+{
+    width: 1130px;
+    height: 540px;
+    position: relative;
+    margin: auto;
+}
+
+.container-2 div h1,span,p
+{
+    width: 520px;
+    text-align: center;
+}
+
+.container-2 div span
+{
+    font-size: 40px;
+    position: absolute;
+    left: 10px;
+    color:  rgb(236, 215, 95);
+}
+
+.container-2 div p{
+    font-size: 20px;
+    margin-top: 70px;
+    opacity: 0.7;
+}
+
+.text-ariya-2
+{
+    width: 520px;
+    position: absolute;
+    top: 160px;
+    left: 15px;
+}
+
+.img-2
+{
+    position: absolute;
+    top: 30px;
+    right: 15px;
+}
+
+/*-------------------------CONTAINER-3---------------------------*/
+
+#container-3
+{
+    width: 100%;
+    height: 240px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#contant-ariya-3
+{
+    width: 1130px;
+    background-color: bisque;
+    margin: auto;
+    position: relative;
+}
+
+.text-left
+{
+    width: 550px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.text-left h1
+{
+    text-align: center;
+    font-size: 29px;
+}
+
+.text-left h3
+{
+    color: #3aa6b9;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.text-left p
+{
+    font-size: 19px;
+    text-align: justify;
+    padding-top: 15px;
+    opacity: 0.8;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#text-right
+{
+    width: 550px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#text-right h1
+{
+    font-size: 29px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#contant-ariya-3 div hr
+{
+    width: 400px;
+    height: 2px;
+    color: black;
+    background-color: black;
+    border: 0;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+#text-right label
+{
+    font-size: 22px;
+    line-height: 35px;
+    opacity: 0.8;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+input
+{
+    margin-left: 20px;
+}
+
+.button-design-2
+{
+    width: 520px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f66;
+    border: 1px solid  #f66;
+    box-shadow: #5b5656 0 0 10px;
+    border-radius: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    right: 15px;
+    top: 170px;
+}
+
+/*-------------------------CONTAINER-4---------------------------*/
+
+#container-4
+{
+    width: 100%;
+    height: 480px;
+    background-color: #3aa6b9;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 20px 0 10px 0;
+}
+
+#contant-ariya-4
+{
+    width: 1100px;
+    height: 470px;
+    margin: auto;
+    position: relative;
+}
+
+#magic-heading h1
+{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    padding: 5px 0 10px ;
+}
+
+#magic-heading hr
+{
+    width: 300px;
+    height: 4px;
+    color: white;
+    background-color:white;
+    border: 0;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.box-1-img
+{
+    position: absolute;
+    top: 150px;
+    left: 40px;
+}
+
+.box-2-img
+{
+    position: absolute;
+    top: 150px;
+    left: 425px;
+}
+
+.box-3-img
+{
+    position: absolute;
+    top: 150px;
+    right: 45px;
+}
+
+#container-4 div h2
+{
+    color: white;
+    font-size: 35px;
+}
+
+#container-4 .box-1 h2
+{
+    position: absolute;
+    top: 95px;
+    left: 110px;
+}
+
+#container-4 .box-2 h2
+{
+    position: absolute;
+    top: 95px;
+    left: 495px;
+}
+
+#container-4 .box-3 h2
+{
+    position: absolute;
+    top: 95px;
+    right: 110px;
+}
+
+#container-4 div p
+{
+    color: white;
+    font-size: 18px;
+}
+
+#container-4 .box-1 p
+{
+    position: relative;
+    top: 345px;
+    right: 90px;
+}
+
+#container-4 .box-2 p
+{
+    position: absolute;
+    top: 420px;
+    left: 290px;
+}
+
+#container-4 .box-3 p
+{
+    position: relative;
+    top: 325px;
+    left: 660px;
+}
+
+/*-------------------------CONTAINER-5---------------------------*/
+
+#container-5
+{
+    width: 100%;
+    height: 480px;
+    padding: 20px 0 ;
+}
+
+.contant-ariya-5
+{
+    width: 1150px;
+    margin: auto;
+    position: relative;
+}
+
+.contant-ariya-5 img
+{
+    border: 4px solid #3aa6b9;
+    border-radius: 30px;
+    box-shadow: #3aa6b9 0 0 15px;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+
+.contant-ariya-5-text-style
+{
+    width: 550px;
+    position: absolute;
+    top: 180px;
+    right: 30px;
+}
+
+.contant-ariya-5 div h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 29px;
+    line-height: 50px;
+    text-align: center;
+}    
+
+.contant-ariya-5 div p
+{
+    text-align: justify;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    opacity: 0.8;
+}
+
+/*-------------------------CONTAINER-6---------------------------*/
+
+
+#container-6
+{
+    width: 100%;
+    height: 500px;
+}
+
+.contant-ariya-6
+{
+    width: 1150px;
+    margin: auto;
+    position: relative;
+}
+
+.heading-6 h1
+{
+    text-align: center;
+    font-size: 29px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.heading-6 h3
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 21px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    opacity: 0.8;
+}
+
+.heading-6 hr
+{
+    width: 450px;
+    height: 2px;
+    background-color: black;
+    border: 0;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.container-6-input
+{
+    font-size: 19px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    opacity: 0.8;
+    text-align: left;
+    line-height: 30px;
+    word-spacing: 3px;
+}
+
+.contant-ariya-6 div div button
+{
+    width: 550px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f66;
+    border: 1px solid  #f66;
+    box-shadow: #5b5656 0 0 10px;
+    border-radius: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.contant-ariya-6-left-style
+{
+    width: 550px;
+    position: absolute;
+    top: 80px;
+    left: 25px;
+    
+}
+
+.img-style-6
+{
+    border: 4px solid #3aa6b9;
+    border-radius: 30px;
+    box-shadow: 0 0 15px;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    margin-bottom: 20px;
+}
+
+/*-------------------------CONTAINER-7---------------------------*/
+
+.container-7
+{
+    width: 100%;
+    height: 830px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contant-ariya-7
+{
+    width: 1150px;
+    height: 600px;
+    padding-top: 10px;
+    margin: auto;
+    position: relative;
+}
+
+.container-7-box-1-position
+{
+    position: absolute;
+    top: 180px;
+    left: 25px;
+}
+
+.container-7-box-2
+{
+    position: absolute;
+    top: 180px;
+    left: 400px;
+}
+
+.container-7-box-3
+{
+    position: absolute;
+    top: 180px;
+    right: 25px;
+}
+
+.header-7 h2
+{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.header-7 h4
+{
+    font-size: 21px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+/*-------------------------CONTAINER-7-BOX-1-------------------------*/
+
+.container-7-box-1
+{
+    width: 300px;
+    height: 575px;
+    background-color: #f4f6f8;
+    padding: 25px;
+    position: relative;
+}
+
+.container-7-box-1 h4
+{
+    position: absolute;
+    top: 375px;
+    left: 125px;
+}
+
+.container-7-box-1 span
+{
+  color: rgb(236, 215, 95);
+  font-size: 22px;
+  padding-left: 20px;
+}
+
+.container-7-box-1-img-1
+{
+    border: 5px solid #f66;
+    border-radius: 20px;
+    box-shadow: #f66 0 0 15px;
+    margin-bottom: 20px;
+}
+
+.container-7-box-1 p
+{
+    margin: 15px 0 0 ;
+    text-align: left;
+    opacity: 0.8;
+    width: 300px;
+}
+
+/*-------------------------CONTAINER-8-------------------------*/
+
+#container-8
+{
+    width: 100%;
+    height: 410px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#contant-ariya-8
+{
+    width: 1150px;
+    height: 410px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: auto;   
+    position: relative;
+}
+
+#contant-ariya-8 div img
+{
+    border: 5px solid #5fb2c0;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+#container-8-text-style
+{
+    width: 530px;
+    padding: 20px 10px 20px 20px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+#contant-ariya-8 div h2
+{
+    font-size: 29px;
+    text-align: center;
+    padding: 10px;
+}
+
+#contant-ariya-8 div p
+{
+    font-size: 17px;
+    margin-top: 10px;
+    text-align: left;
+    opacity: 0.8;
+    line-height: 30px;
+    word-spacing: 2px;
+}
+
+/*-------------------------CONTAINER-9-------------------------*/
+
+.container-9
+{
+    width: 100%;
+    height: 1120px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.contant-ariya-9
+{
+    width: 1100px;
+    position: relative;
+    margin: auto;
+}
+
+
+.container-9-box-model-left
+{
+    width: 500px;
+    height: 930px;
+    text-align: center;
+    border: 3px solid #c4c4c4;
+    box-shadow: #c4c4c4 0 0 10px;
+    padding-bottom: 20px;
+    padding-top: 25px;
+    position: absolute;
+    top: 120px;
+    left: 30px;
+}
+
+.container-9-box-model-right
+{
+    width: 500px;
+    height: 930px;
+    text-align: center;
+    border: 3px solid #c4c4c4;
+    box-shadow: #c4c4c4 0 0 10px;
+    padding-bottom: 20px;
+    padding-top: 25px;
+    position: absolute;
+    top: 120px;
+    right: 30px;
+}
+
+.container-9-box-model-heading-top
+{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container-9-box-model-heading-top h2
+{
+    font-weight: 700;
+    font-size: 30px;
+    color: #de1010;
+    line-height: 45px;
+}
+
+.container-9-box-model-heading-top h3
+{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+    color: #289553
+    
+}
+
+.container-9-box-model-heading
+{
+    font-size: 24px;
+    font-weight: 800;
+    color: #fff;
+    background-color: #3aa6b9;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 25px;
+}
+
+.container-9-box-model-img-1
+{
+    border: 5px solid #f66;
+    border-radius: 30px;
+    /* padding: 15px; */
+}
+
+.container-9-box-model-heading-2
+{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+    color: #f66;
+}
+
+.price
+{
+    font-size: 28px;
+    font-weight: 700;
+    color: #3aa6b9;
+    margin: 5px 0 20px;
+}
+
+.past-price
+{
+    font-size: 23px;
+    font-weight: 300;
+    color:  #4a4a4a;
+    margin-right: 5px;
+}
+
+.container-9-box-model-input-style
+{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    line-height: 20px;
+    text-align: left;
+    padding-left: 10px;
+    color: #000000BF;
+}
+
+.container-9-box-model-button-1
+{
+    width: 95%;
+    margin: 20px 0 15px;
+    background-color: #3aa6b9;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 16px 75px;
+    border: none;
+    border-radius: 30px;
+}
+
+.container-9-box-model-2
+{
+    border: 1px solid #9b9b9b;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 15px;
+    font-size: 14px;
+    font-weight: 50;
+}
+
+.container-9-box-model-bottom
+{
+    margin-top: 10px;
+}
+
+/*-------------------------CONTAINER-10-------------------------*/
+
+.container-10
+{
+    width: 1140px;
+    height: 265px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:  #f4f6f8;
+    margin: auto;
+    padding: 15px;
+    position: relative;
+}
+
+.container-10-button-left
+{
+    position: absolute;
+    top: 70px;
+    left: 20px;
+}
+
+.container-10-button-right
+{
+    position: absolute;
+    top: 70px;
+    right: 20px;
+}
+
+.container-10 h2
+{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.container-10-button
+{
+    width: 550px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 10px;
+    border: 1px solid #3aa6b9;
+    padding: 15px 20px;
+    text-align: left;
+}
+
+.container-10-button:hover
+{
+    background-color: #3aa6b9;
+    color: #f4f4f4;
+}
+
+/*-------------------------CONTAINER-11-------------------------*/
+
+.container-11
+{
+    width: 100%;
+    height: 595px;
+    background-color:  #3aa6b9;
+    color: #f4f4f4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contant-ariya-11 div h2
+{
+    font-size: 34px;
+    line-height: 32px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contant-ariya-11
+{
+    width: 1150px;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+}
+
+.contant-ariya-11-first-name label
+{
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    top: 80px;
+    left: 25px;
+}
+
+.contant-ariya-11-first-name input
+{
+    width: 520px;
+    padding: 10px;
+    border: none;
+    position: absolute;
+    top: 110px;
+    left: 3px;
+    border-radius: 5px;
+}
+
+.contant-ariya-11-last-name label
+{
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    top: 80px;
+    right: 472px;
+}
+
+.contant-ariya-11-last-name input
+{
+    width: 520px;
+    padding: 10px;
+    border: none;
+    position: absolute;
+    top: 110px;
+    right: 23px;
+    border-radius: 5px;
+}
+
+.contant-ariya-11-email label
+{
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    top: 180px;
+    left: 25px;
+}
+
+.contant-ariya-11-email input
+{
+    width: 1085px;
+    padding: 10px;
+    border: none;
+    position: absolute;
+    top: 210px;
+    right: 20px;
+    border-radius: 5px;
+}
+
+.contant-ariya-11-textarea
+{
+    position: absolute;
+    top: 280px;
+    left: 20px;
+}
+
+.contant-ariya-11-textarea label
+{
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+.contant-ariya-11-textarea textarea
+{
+    width: 1100px;
+    border: none;
+    margin-top: 15px;
+    position: absolute;
+    top: 15px;
+    left: 3px;
+    border-radius: 5px;
+}
+
+.contant-ariya-11-button
+{
+    background-color: #f66;
+    line-height: 27px;
+    padding: 16px 120px;
+    border: 1px solid  #f66;
+    box-shadow: #5b5656 0 0 10px;
+    border-radius: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 480px;
+    left: 385px;
+}
+
+/*-------------------------bottom-------------------------*/
+
+.container-bottom
+{
+    width: 100%;
+    height: 245px;
+}
+
+.contant-ariya-bottom
+{
+    width: 1100px;
+    margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+}
+
+.contant-ariya-bottom h3
+{
+    margin-bottom: 20px;
+}
+
+.bottom-left-text 
+{
+   text-align: left;
+   width: 290px;
+   line-height: 30px;
+   position: absolute;
+   top: 40px;
+   left: 10px;
+}
+
+.bottom-right-text
+{
+    width: 280px;
+    text-align: left;
+    line-height: 30px;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+
+.bottom-right-text a
+{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.contant-ariya-bottom div img
+{
+    position: absolute;
+    top: 50px;
+    left: 470px;
+}

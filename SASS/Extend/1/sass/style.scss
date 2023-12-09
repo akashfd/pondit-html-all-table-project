@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box-style{
+    width: 60%;
+    background-color: aqua;
+    margin: auto;
+    h1{
+        text-align: center;
+        font-size: 30px;
+        color: red;
+        padding: 10px 0;
+    }
+
+    p{
+        padding: 10px 20px;
+        color: tomato;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    button{
+        color: white;
+        background-color: brown;
+        padding: 5px 30px;
+        border: none;
+        border-radius: 10px;
+        display: block;
+        margin: auto;
+
+    }
+}
+
+section{
+    @extend .box-style;
+    margin-top: 10px;
+}

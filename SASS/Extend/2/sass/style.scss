@@ -1,0 +1,23 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+%box-style{
+    text-align: center;
+    color: darkblue;
+    background-color: bisque;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.part-1{
+    @extend %box-style;
+}
+
+#part-2{
+    @extend %box-style;
+}
+

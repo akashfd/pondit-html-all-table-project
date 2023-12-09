@@ -1,0 +1,13 @@
+
+
+@mixin button-style {
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: $dark;
+    color: $light;
+    border: none;
+
+    &:hover {
+        color: $primary-color;
+    }
+}

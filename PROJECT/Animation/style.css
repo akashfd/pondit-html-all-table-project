@@ -1,0 +1,808 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+
+/***** header *****/
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+    width: 95%;
+    margin: auto;
+    border-bottom: 1px solid rgb(147, 146, 146);
+}
+
+ul {
+    display: flex;
+    gap: 25px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(84, 84, 84);
+}
+
+ul li {
+    cursor: pointer;
+}
+
+ul li:hover {
+    color: #d4a762;
+}
+
+.logo {
+    font-size: 25px;
+    font-family: 'Playball', cursive !important;
+    color: #d4a762;
+}
+
+.logo span {
+    color: black;
+}
+
+.nav-button {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #d4a762;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    color: #d4a762;
+    background-color: black;
+}
+
+.icon {
+    font-size: 18px;
+    background-color: #d4a762;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: #d4a762;
+    background-color: black;
+}
+
+.drop-down-container{
+    position: relative;
+}
+
+.drop-down-container:hover .drop-down-contant {
+    display: block;
+}
+
+.drop-down-contant li {
+    padding: 5px 20px;
+}
+
+.drop-down-contant li:hover {
+    background-color: #d4a762;
+    color: black;
+}
+
+.drop-down-contant {
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: -20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    animation-name: drop-down;
+    animation-duration: 0.5s;
+}
+
+@keyframes drop-down {
+    from {
+        transform: scale(0);
+        transform-origin: top;
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+
+
+
+/***** header-text *****/
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 70px;
+    padding-bottom: 50px;
+}
+
+.header-contant {
+    padding-bottom: 50px;
+    width: 500px;
+}
+
+.header-contant p {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #d4a762;
+    padding: 5px 15px;
+    display: inline;
+    border-radius: 20px;
+}
+
+.header-contant div h2 {
+    font-family: 'Playball', cursive;
+    font-weight: 600;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.header-contant div h2 span {
+    color: #d4a762;
+}
+
+.header-text {
+    animation-name: header-text-animation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+}
+
+@keyframes header-text-animation {
+    from {
+        transform: translateY(-400px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.header-contant .header-button button {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #d4a762;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+
+.header-contant .header-button button:hover {
+    color: #d4a762;
+    background-color: black;
+}
+
+.header-button {
+    animation-name: header-button-animation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 3;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+}
+
+
+@keyframes header-button-animation {
+    from {
+        transform: translateX(-400px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+.header-img-style {
+    animation-name: img-animation;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 3;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+}
+
+@keyframes img-animation {
+    from {
+        transform: scale(0);
+        transform-origin: center center;
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+
+
+
+.about-section {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.about-text-style {
+    font-family: 'Poppins', sans-serif;
+    padding: 0 25px;
+    animation-name: about-text-animation;
+    animation-duration: 1.3s;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes about-text-animation {
+    0% {
+        transform: translateY(500px);
+    }
+
+    60% {
+        transform: translateY(-20px);
+    }
+
+    75% {
+        transform: translateY(20px);
+    }
+
+    90% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.about-section .about-img-style {
+    padding: 0 25px;
+    animation-name: about-img-animation;
+    animation-duration: 1.3s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes about-img-animation {
+    0% {
+        transform: translateY(500px);
+    }
+
+    60% {
+        transform: translateY(-20px);
+    }
+
+    75% {
+        transform: translateY(20px);
+    }
+
+    90% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.about-text-style .top-text-style {
+    font-size: 18px;
+    display: inline;
+    padding: 5px 15px;
+    border: 1px solid #d4a762;
+    border-radius: 20px;
+}
+
+.about-text-style h2 {
+    font-size: 35px;
+    padding: 30px 0 10px 0;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.about-text-style .para {
+    font-size: 20px;
+    opacity: 0.6;
+    padding: 15px 0;
+}
+
+
+.para-style {
+    padding: 20px 0;
+    font-size: 18px;
+}
+
+.para-style div {
+    display: flex;
+}
+
+.para-style div p {
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
+.about-text-style div button {
+    font-size: 16px;
+    background-color: #d4a762;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.about-text-style div button:hover {
+    color: #d4a762;
+    background-color: black;
+}
+
+
+
+
+
+/*********** our-services ***********/
+
+.our-services {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.our-services-top-text {
+    text-align: center;
+}
+
+.our-services-top-text p {
+    font-size: 18px;
+    padding: 10px 25px;
+    border: 1px solid #d4a762;
+    border-radius: 40px;
+    display: inline;
+    margin: 15px 0;
+}
+
+.our-services-top-text h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 35px;
+    padding: 50px 0;
+    animation-name: our-services-header-animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes our-services-header-animation {
+
+    0% {
+        transform: scale(0);
+
+    }
+
+    60% {
+        transform: scale(0.6) rotate(360deg);
+        color: hotpink;
+    }
+
+    80% {
+        transform: scale(1.9);
+        color: red;
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.our-services-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.our-services-content {
+    width: 215px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: rgb(185, 183, 183) 0 0 15px 0px;
+}
+
+.our-services-content:hover {
+    background-color: #d4a762;
+    animation-name: animationbox;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes animationbox {
+    from {
+        transform: translateY(0);
+        transform-origin: top;
+    }
+
+    to {
+        transform: translateY(1);
+    }
+}
+
+.our-services-content:hover i {
+    color: black;
+}
+
+.our-services-content:hover p {
+    color: white;
+}
+
+.our-services-content:hover button {
+    color: #d4a762;
+    background-color: white;
+}
+
+
+.our-services-content i {
+    font-size: 100px;
+    color: #d4a762;
+}
+
+.our-services-content h2 {
+    font-size: 22px;
+    padding: 20px 0;
+}
+
+.our-services-content p {
+    font-size: 18px;
+    opacity: 0.6;
+}
+
+.our-services-content button {
+    margin: 20px 0 0 0;
+    font-size: 16px;
+    background-color: #d4a762;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.our-services-content button:hover {
+    color: #d4a762;
+    background-color: black;
+}
+
+.our-services-box-part-1 {
+    animation-name: our-services-box-part-1-animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes our-services-box-part-1-animation {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    40% {
+        transform: translateY(20px);
+    }
+
+    55% {
+        transform: translateY(-20px);
+    }
+
+    70% {
+        transform: translateY(10px);
+    }
+
+    85% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.our-services-box-part-2 {
+    animation-name: our-services-box-part-2-animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes our-services-box-part-2-animation {
+    0% {
+        transform: translateY(100%);
+    }
+
+    40% {
+        transform: translateY(-20px);
+    }
+
+    55% {
+        transform: translateY(20px);
+    }
+
+    70% {
+        transform: translateY(-10px);
+    }
+
+    85% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+
+
+/*********** our-team ***********/
+
+.our-tem {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.our-tem-header p {
+
+    font-size: 18px;
+    border: 1px solid #d4a762;
+    padding: 10px 25px;
+    display: inline;
+    border-radius: 40px;
+}
+
+.our-tem-header h2 {
+    font-family: 'Playball', cursive;
+    font-size: 35px;
+    padding: 50px 0;
+    animation-name: team-header-animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes team-header-animation {
+    from {
+        transform: scale(0) translateX(-100%);
+        color: gray;
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+
+.team {
+    animation-name: team-animation;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+
+.team:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.team:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+.team:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+@keyframes team-animation {
+    0% {
+        transform: translateY(100%);
+    }
+
+    55% {
+        transform: translateY(-20px);
+    }
+
+    70% {
+        transform: translateY(20px);
+    }
+
+    85% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.team-container>div {
+    margin: 10px;
+}
+
+.team-container>div:hover {
+    background-color: #d4a762;
+    cursor: pointer;
+}
+
+.team-container>div:hover h2 {
+    color: black;
+}
+
+.team-container>div {
+    background-color: black;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.team-container>div img {
+    border-radius: 10px;
+}
+
+.team-container>div h2 {
+    font-size: 25px;
+    color: #d4a762;
+    padding-top: 5px;
+}
+
+.team-container>div p {
+    font-size: 18px;
+    color: white;
+    padding: 5px 0 10px 0;
+}
+
+
+
+
+/*********** event ***********/
+
+.events {
+    text-align: center;
+}
+
+.events p {
+    font-size: 18px;
+    border: 1px solid #d4a762;
+    border-radius: 40px;
+    display: inline;
+    padding: 10px 25px;
+}
+
+.events h2 {
+    font-family: 'Playball', cursive;
+    font-size: 35px;
+    padding: 40px 0;
+    animation-name: evevt-header;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes evevt-header {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+
+.events-container {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.event-1 {
+    animation-name: event-1-animation;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes event-1-animation {
+    from {
+        transform: scale(0);
+        transform-origin: top left;
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.event-4 {
+    animation-name: event-2-animation;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes event-2-animation {
+    from {
+        transform: scale(0);
+        transform-origin: top right;
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.event-5 {
+    animation-name: event-5-animation;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes event-5-animation {
+    from {
+        transform: scale(0);
+        transform-origin: bottom left;
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.event-8 {
+    animation-name: event-8-animation;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes event-8-animation {
+    from {
+        transform: scale(0);
+        transform-origin: bottom right;
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.event-2,
+.event-3,
+.event-6,
+.event-7 {
+    animation-name: event-x-animation;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes event-x-animation {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1) rotate(360deg);
+    }
+}

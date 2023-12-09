@@ -1,0 +1,23 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@mixin para-style{
+    font-size: 20px;
+    padding: 15px;
+    text-align: justify;
+    color:blue;
+    background-color: coral;
+    line-height: 30px;
+    margin-top: 10px
+}
+
+#About{
+    @include para-style;
+}
+
+.education{
+    @include para-style;
+}

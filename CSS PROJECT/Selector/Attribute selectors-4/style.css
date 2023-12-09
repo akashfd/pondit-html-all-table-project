@@ -1,0 +1,16 @@
+
+
+a[target]
+{
+    background-color: yellow;
+}
+
+p[class^="test"]
+{
+    background-color: yellowgreen;
+}
+
+a[target="_blank"]
+{
+    background-color: yellow;
+}

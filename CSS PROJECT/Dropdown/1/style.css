@@ -1,0 +1,52 @@
+
+
+
+.navbar{
+    background-color: coral;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 20px;
+}
+
+.navbar a:hover{
+    background-color: rgb(235, 102, 54);
+}
+
+.navbar-container{
+    display: inline;
+    position: relative;
+}
+
+.navbar-container:hover .navbar-content{
+    display: block;
+}
+
+.navbar-content{
+    background-color: coral;
+    display: none;
+    position: absolute;
+    top: 32px;
+    right: -8px;
+}
+
+.navbar-content a{
+    display: block;
+}
+
+
+@media screen and (max-width: 600px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .navbar-content{
+        display: block;
+    }
+}

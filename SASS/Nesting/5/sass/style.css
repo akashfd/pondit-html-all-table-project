@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+}
+
+div h2 {
+  background-color: grey;
+  padding: 30px;
+  margin: 50px;
+  display: inline-block;
+}/*# sourceMappingURL=style.css.map */

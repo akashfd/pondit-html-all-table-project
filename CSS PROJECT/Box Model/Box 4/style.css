@@ -1,0 +1,35 @@
+
+*
+{
+    margin: 0;
+    margin: auto;
+}
+
+#background
+{
+    background-color: aqua;
+    border: 5px solid greenyellow;
+    width: 480px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.box
+{
+    display: inline-block;
+    width: 80px;
+    background-color: white;
+    color: darkblue;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid blueviolet;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+#bottom
+{
+    color: red;
+    padding: 10px;
+}
